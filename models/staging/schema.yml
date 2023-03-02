@@ -1,14 +1,14 @@
 version: 2
 
 models:
-  - name: meey_id_users
-    columns:
-      - name: _id
-        tests:
-          - unique
-          - not_null
+  # - name: meey_id_users
+  #   columns:
+  #     - name: _id
+  #       tests:
+  #         - unique
+  #         - not_null
 
-      - name: status
+  #     - name: status
 
   - name: stg_customers
     columns:

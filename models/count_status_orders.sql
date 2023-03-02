@@ -1,6 +1,6 @@
 with final as (
     select COUNT(id), status
-    from {{ ref('meey_id_users') }}
+    from {{ ref('raw_orders') }}
     group by status
 )
 

@@ -84,6 +84,9 @@ models:
   - name: count_status_orders
     columns:
       - name: status
-          description: '{{ doc("orders_status") }}'
+        description: '{{ doc("orders_status") }}'
 
       - name: count
+        description: Amount of the order (AUD) paid for by gift card
+        tests:
+          - not_null

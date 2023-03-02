@@ -1,7 +1,7 @@
 with final as (
-    SELECT COUNT(id), status
-        FROM {{ ref('raw_orders') }}
-        GROUP BY status;
+    select COUNT(id), status
+    from {{ ref('raw_orders') }}
+    group by status
 )
 
 select * from final

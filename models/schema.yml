@@ -90,3 +90,11 @@ models:
         description: Amount of the order (AUD) paid for by gift card
         tests:
           - not_null
+
+  - name: meey_id_transform_user_count_by_status
+    columns:
+      - name: status
+        description: ''
+
+      - name: count
+        description: ''

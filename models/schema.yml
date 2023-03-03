@@ -1,6 +1,14 @@
 version: 2
 
 models:
+  - name: meey_id_transform_user_count_by_month
+    columns:
+      - name: month
+        description: ''
+
+      - name: count
+        description: ''
+
   - name: meey_id_transform_user_count_by_status
     columns:
       - name: status
